@@ -1,0 +1,26 @@
+{
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "description": "Pluralsight Course https://app.pluralsight.com/library/courses/graphql-api-apollo-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Rossano D'Angelo",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource": "^3.3.1",
+    "apollo-datasource-rest": "^3.5.1",
+    "apollo-server": "^3.6.4",
+    "graphql": "^16.3.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.15"
+  },
+  "nodemonConfig": {
+    "env": {
+      "APOLLO_KEY": "",
+      "APOLLO_GRAPH_REF": "",
+      "APOLLO_SCHEMA_REPORTING": "true"
+    }
+  }
+}
